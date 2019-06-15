@@ -1,1 +1,4 @@
 .idea/
+source/pythonfiles/__pycache__/
+!.gitkeep
+TrackingData/

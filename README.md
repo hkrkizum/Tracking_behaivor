@@ -27,11 +27,18 @@ $ git clone https://github.com/hkrkizum/Tracking_behaivor.git
 ### Set format file
 
 ```
-Docker_POMSandSTAI/
+Tracking_behaivor/
   ├─ .git/
   ├─ .gitignore
   ├─ README.md
-  ├─ docker-compose.yml
+  ├─ Videofiles/
+  │   └─ test.mp4
+  ├─ Setting/
+  │   ├─ FileList/
+  │   └─ Polygon/
+  │       ├─ FileList/
+  │       └─ Polygon/
+  │           └─ polygon.csv
   └─ data/
       ├─ Source/
       │    ├─ main_POMS.py
