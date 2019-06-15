@@ -26,7 +26,7 @@ $ git clone https://github.com/hkrkizum/Tracking_behaivor.git
 
 1. Make Mask Poligon setting file
 
-![Base screeshot](https://imgur.com/8XNBipB "サンプル")
+![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/test.mp4_snapshot_00.04_%5B2019.06.16_00.12.21%5D.jpg)
 
 
 ```
