@@ -39,17 +39,10 @@ Tracking_behaivor/
   │       ├─ FileList/
   │       └─ Polygon/
   │           └─ polygon.csv
-  └─ data/
-      ├─ Source/
-      │    ├─ main_POMS.py
-      │    ├─ main_STAI.py
-      │    ├─ CoreCode.py
-      │    ├─ Score/
-      │    │   └─ Tscore...csv
-      │    └─ Container/
-      │        └─ Dockerfile       
-      ├─  Result/
-      └─  Rawdata/
-            ├─  Rawdata_format_POMS.xlxs
-            └─  Rawdata_format_STAI.xlxs
+  ├─ TrackingData/
+  └─ source/
+     ├─ pythonfiles/
+     │   ├─ Video_1file.py
+     │   └─ CoreCode.py
+     └─ Rfiles
 ```
