@@ -45,7 +45,13 @@ Tracking_behaivor/
      └─ Rfiles
 ```
 
-1. Make Mask Poligon setting file
+Make Mask Poligon setting file
+
+  - 1st col: Number
+  - 2nd col: X
+  - 3rd col: Y 
+
+→　put in Setting/
 
 ![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/polygon.png)
 

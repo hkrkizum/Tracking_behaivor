@@ -119,7 +119,9 @@ def main(Basedir, input, filename, setting, resolution, threshold=None):
         # # Gaussianオペレータを使用して平滑化
         img_thread = cv2.GaussianBlur(img_thread, average_square, sigma_x)
 
-        cv2.imshow('binary', img_thread)
+        img_thread_s = cv2.resize(img_thread, None, fx = 0.5, fy = 0.5)
+        #cv2.imshow('binary', img_thread)
+        cv2.imshow('binary', img_thread_s)
 
         # ラベリング処理
         label = cv2.connectedComponentsWithStats(img_thread)
@@ -142,7 +144,9 @@ def main(Basedir, input, filename, setting, resolution, threshold=None):
                           (label2_filtered[max_index,0] + label2_filtered[max_index,2], label2_filtered[max_index,1] + label2_filtered[max_index,3]),
                           (255, 0, 0))
 
-        cv2.imshow(filename, frame_gamma)
+        frame_gamma_s = cv2.resize(frame_gamma, None, fx = 0.5, fy = 0.5)
+        # cv2.imshow(filename, frame_gamma)
+        cv2.imshow(filename, frame_gamma_s)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
