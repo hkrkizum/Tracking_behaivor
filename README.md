@@ -2,6 +2,8 @@
 
 Python and R script for analyzing mouse moving in behavior experiment
 
+![top](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/top.gif)
+
 ## Getting Started
 
 ### Requirement
