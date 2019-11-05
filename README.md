@@ -18,6 +18,15 @@ Python and R script for analyzing mouse moving in behavior experiment
   - thinker
   - datetime
 
+- R
+
+  thise pacakege is requried.
+  - sp
+  - tidyverse
+  - jsonlite
+  - stringr
+
+
 ### Installation
 
 ```
@@ -53,7 +62,7 @@ Make Mask Poligon setting file
   - 2nd col: X
   - 3rd col: Y 
 
-→　put in Setting/
+→　put in `Setting/`
 
 ![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/polygon.png)
 

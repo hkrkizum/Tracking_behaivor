@@ -1,28 +1,28 @@
 #-*- coding:utf-8 -*-
-import pathlib
+import pathlib, os
 import CoreCode
 
 if __name__ == "__main__":
-    P_path = pathlib.Path("Video_1file.py").resolve()
+    P_path = pathlib.Path(os.path.abspath(__file__)).resolve()
     Base_dir = P_path.parents[2]
 
-    print("Choose object file")
+    print("Choose video file")
     ini_dir = Base_dir / "Videofiles"
 
     in_f = CoreCode.def_select_file(Basedir=ini_dir,
                                     name="Traking",
                                     message="Choose object file")
     in_f_name = pathlib.Path(in_f).name
-    print("Selected file" + in_f_name)
+    print("Selected video file: " + in_f_name)
     print("******************************************")
 
-    print("Choose setting file")
+    print("Choose mask polygon CSV file")
     ini_dir = Base_dir / "Setting" / "Polygon"
 
     setting_file = CoreCode.def_select_file(Basedir=ini_dir,
                                             name="Traking",
                                             message="Choose setting file")
-    print("Selected Setting file" + setting_file)
+    print("Selected mask polygon CSV file: " + setting_file)
     print("******************************************")
 
     print("Input V threshold Value")
