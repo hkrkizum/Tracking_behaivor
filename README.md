@@ -77,6 +77,6 @@ python .\source\pythonfiles\Video_1file.py
 
 - pop up. when you select OK, you can choose video file on GUI.
 
-
-![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png)
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png" width="100%">
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png" width="50%">
 ![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png)
