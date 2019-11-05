@@ -77,6 +77,11 @@ python .\source\pythonfiles\Video_1file.py
 
 - pop up. when you select OK, you can choose video file on GUI.
 
-<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png" width="100%">
-<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png" width="50%">
-![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png)
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png" width="70%">
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png" width="70%">
+
+
+- pop up. when you select OK, you can choose CSV file on GUI.
+
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step2.png" width="70%">
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step2_1.png" width="70%">
