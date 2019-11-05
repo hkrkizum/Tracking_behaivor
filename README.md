@@ -75,13 +75,20 @@ Make Mask Poligon setting file
 python .\source\pythonfiles\Video_1file.py
 ```
 
-- pop up. when you select OK, you can choose video file on GUI.
+- 1-1. pop up. when you select OK, you can choose video file on GUI.
 
 <img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png" width="70%">
 <img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png" width="70%">
 
-
-- pop up. when you select OK, you can choose CSV file on GUI.
+- 1-2. when you select OK, you can choose CSV file on GUI.
 
 <img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step2.png" width="70%">
 <img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step2_1.png" width="70%">
+
+- 1-3. Set threthold parameter. If you set blank, 35 will be used as default.
+
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step3.png" width="70%">
+
+- 1-4. Analized data will be saved in `TrackingData/` automatically.
+
+<img src="https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step4.png" width="70%">
