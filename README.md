@@ -26,16 +26,15 @@ Python and R script for analyzing mouse moving in behavior experiment
   - jsonlite
   - stringr
 
-
 ### Installation
 
-```
-$ git clone https://github.com/hkrkizum/Tracking_behaivor.git
+```bash
+git clone https://github.com/hkrkizum/Tracking_behaivor.git
 ```
 
 ## Preparation  
 
-```
+```bash
 Tracking_behaivor/
   ├─ .git/
   ├─ .gitignore
@@ -58,11 +57,26 @@ Tracking_behaivor/
 
 Make Mask Poligon setting file
 
-  - 1st col: Number
-  - 2nd col: X
-  - 3rd col: Y 
+- 1st col: Number
+- 2nd col: X
+- 3rd col: Y
 
 →　put in `Setting/`
 
 ![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/polygon.png)
 
+## Usage
+
+### A. 1 file tracking
+
+1. Run tracking
+
+```bash
+python .\source\pythonfiles\Video_1file.py
+```
+
+- pop up. when you select OK, you can choose video file on GUI.
+
+
+![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1.png)
+![Base](https://github.com/hkrkizum/Tracking_behaivor/blob/image/images/1video_step1_1.png)
