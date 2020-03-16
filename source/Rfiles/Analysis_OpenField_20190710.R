@@ -1,6 +1,6 @@
 ## set working dir ------------------------------------------------------
-setwd("C:/Behaivior_Analysis/Bonsai/Script")
-source("functions_OFT.R")
+setwd("D:/Develop/Tracking_behaivor")
+source("./source/Rfiles/functions_OFT.R")
 
 ## set parameters---------------------------------------------------------
 setting_file  <- "Setting/FileList/Analysis_file_setting_20190710_OP.csv"

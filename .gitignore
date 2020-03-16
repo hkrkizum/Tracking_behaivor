@@ -3,3 +3,5 @@ source/pythonfiles/__pycache__/
 !.gitkeep
 TrackingData/
 source/Rfiles/.Rhistory
+.Rproj.user
+Result/
