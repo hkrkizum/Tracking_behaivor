@@ -5,3 +5,6 @@ TrackingData/
 source/Rfiles/.Rhistory
 .Rproj.user
 Result/
+.RData
+.Rhistory
+Tracking_behaivor.Rproj
