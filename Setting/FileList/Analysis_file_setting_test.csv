@@ -1,2 +1,2 @@
 ﻿in_f,skip_start,skip_end,out_f,Arm_start,Arm_novel,Arm_other,Retention,Group
-test.csv,13,613,test,A,C,B,FALSE,16
+test.csv,13,613,test,A,C,B,FALSE,./Setting/Polygon/20190716_poly_XY.csv
